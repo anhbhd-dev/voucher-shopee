@@ -1,5 +1,5 @@
+import VoucherList from "@/components/VoucherList";
 import { Metadata } from "next";
-import VoucherList from "../components/VoucherList"; // Component mới
 
 export const metadata: Metadata = {
   title: "Danh Sách Voucher Shopee Hôm Nay",

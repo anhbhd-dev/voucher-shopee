@@ -6,9 +6,7 @@ export const metadata: Metadata = {
 };
 
 async function getVouchers() {
-  const baseApiUrl = process.env.NEXT_PUBLIC_BASE_API_URL;
-  const apiUrl = `${baseApiUrl}/vouchers`;
-  console.log("apiUrl", apiUrl);
+  const apiUrl = `${process.env.NEXT_PUBLIC_BASE_API_URL}/vouchers`;
   const res = await fetch(apiUrl, {
     cache: "no-store",
   });
